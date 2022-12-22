@@ -64,12 +64,32 @@ nav ul li {
 }
 
 nav ul li a {
+    transition: all 0.4s ease;
     text-transform: uppercase;
     text-decoration: none;
     color: #fff;
     
     font-family: "Montserrat", sans-serif;
 }
+/* BOOK NOW BUTTON */
+.filled-btn{
+    transition: all 0.4s ease;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    padding:  16px;
+    margin: 0 5px;
+    background-color: #00A261;
+    
+}
+.filled-btn:hover {
+    transform: translateY(-4px);
+    background: #25b37a;
+    
+}
+.filled-btn a:hover {
+    color: #fff;
+}
+/* END OF BOOK NOW */
 
 nav  a:hover {
     transition: all 0.4s ease;
@@ -163,6 +183,9 @@ nav.open .hamburger-menu .line:nth-of-type(3) {
     nav ul li a {
         color: #00A261;
     }
+    .filled-btn a{
+        color: #fff;
+    }
     
     nav ul li:not(:last-child) {
         border-bottom: 1px solid #ccc;
@@ -244,6 +267,7 @@ END OF NAVBAR */
     cursor: pointer;
     transition: 0.4 all ease;
 }
+
 .card-content button:hover {
     background: #1a1919;
 }
