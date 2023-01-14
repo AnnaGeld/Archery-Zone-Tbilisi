@@ -43,12 +43,11 @@
     </header>
 
     <!--  BOOK NOW POPUP -->
-
     <div class="popup">
       <div class="popup-content">
         
         <i class="fa-solid fa-xmark close" id="close"></i>
-        <h2>BOOK NOW</h2>
+        
 
         <div class="main-popup">
           
@@ -62,9 +61,9 @@
               <input type="text" name="name" placeholder="Write Your Email" required />
             </div>
             <div>
-              <label for="name">How many people ?</label>
+              <label for="name">How many Lines ?</label>
               <select name="people" id="people">
-                <option value="">---People---</option>
+                <option value="">---Line---</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -75,7 +74,19 @@
             </div>
             <div>
               <label for="time">What Time ?</label>
-              <input type="text" name="time" id="time" placeholder="Time" required/>
+              <select name="time" id="time">
+                <option value="">---Time---</option>
+          
+                <option value="2">12PM</option>
+                <option value="3">1PM</option>
+                <option value="4">2PM</option>
+                <option value="5">3PM</option>
+                <option value="5">4PM</option>
+                <option value="5">5PM</option>
+                <option value="5">6PM</option>
+                <option value="5">7PM</option>
+                <option value="5">8PM</option>
+              </select>
             </div>
             <div>
               <label for="date">What Is The Date ?</label>
@@ -88,7 +99,7 @@
            
             </div>
             <div class="submit">
-              <input type="submit" name="submit" value="BOOK" id="submit"/>
+              <input type="submit" name="submit" value="BOOK NOW" id="submit"/>
             </div>
           </form>
         </div>
@@ -97,6 +108,7 @@
     <!-- END OF POPUP -->
 
     <!-- HOME SECTION -->
+    <main>
     <section id="home">
       <div class="home-container">
         <div class="home-card-container">
@@ -120,7 +132,7 @@
           <p>
             Premier archery range in <span class="underLine">Tblisi.</span
             ><span class="bold">New to archery? We are here to help.</span>
-            Watch a short <a href="#">introductory video found here</a> on
+            Watch a short <a target="_blank" href="https://www.youtube.com/watch?v=BfIRIFSe4aw">introductory video found here</a> on
             archery, and our professionals on the range will help reinforce what
             you learn
           </p>
@@ -132,7 +144,7 @@
             <div class="range-card">
               <div class="range-icon"><i class="fa-regular fa-star"></i></div>
               <div class="range-card-content">
-                <h3><span class="bold">5-20 Meters </span>RANGE</h3>
+                <h3><span class="bold">5-20 Meters RANGE </span></h3>
                 <p>
                   Start out shooting at 10 Meters if you'd like! Our range can
                   accommodate <span class="bold">all skill levels.</span>
@@ -145,7 +157,7 @@
                 <i class="fa-solid fa-crosshairs"></i>
               </div>
               <div class="range-card-content">
-                <h3>FAMILY FRIENDLY: <span class="bold">AGE 10+</span></h3>
+                <h3> <span class="bold">FAMILY FRIENDLY: AGE 10+</span></h3>
                 <p>
                   Bring the whole family! A great way to spend your evenings or
                   afternoons with us at Archery
@@ -229,7 +241,7 @@
               </div>
               <div class="range-card-content">
                 <h3>
-                  <span class="bold">20 PLAYERS PER GAME (Up To 10 VS 10)</span>
+                  <span class="bold">UP TO 20 PLAYERS PER GAME (Up To 10 VS 10)</span>
                 </h3>
                 <p>
                   Nothing beats shooting your first X. Learn how to be an archer
@@ -279,6 +291,7 @@
         </div>
       </div>
     </section>
+  </main>
     <!-- PRICING SECTON -->
     <section id="pricing">
       <div class="table-container">
