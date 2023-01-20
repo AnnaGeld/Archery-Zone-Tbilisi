@@ -346,7 +346,8 @@ END OF NAVBAR */
     color: #fff;
     padding: 20px;
     border-radius: 3px;
-    background-color: #ad9e9e;
+    background-color: #00A261;
+    border: 1px solid white;
 }
 
 /* IMAGE RANGE */
@@ -588,9 +589,10 @@ table tr {
 }
 .contact-info{
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     gap: 5px;
-    align-items: center;
+   
+    justify-content: center;
     padding: 10px;
     font-size: 1.2rem;
     margin:  0 auto;
