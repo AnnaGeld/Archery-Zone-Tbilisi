@@ -44,7 +44,9 @@ nav ul {
 .header-logo{
     width: 150px;
 }
+
 .logo {
+    
     display: block;
     background-size: cover;
    width: 100%;
@@ -379,8 +381,8 @@ END OF NAVBAR */
 .images-container img {
     display: block;
    object-fit: cover;
-   min-width: 100%;
-    min-height: 100%;
+   min-width: 400px;
+    min-height: 300px;
 }
 
 @media (min-width:992px) {
@@ -393,6 +395,10 @@ END OF NAVBAR */
     }
     .range-right-content{
         width: 50%;
+    }
+    .images-container img {
+        min-width: 100%;
+        min-width: 100%;
     }
 }
 
@@ -466,7 +472,7 @@ TAG SECTION
 .tag-right-container {
    width: 100%; 
    margin: 0 auto;
-    padding: 0 50px;
+    padding: 0 20px;
     display: flex;
     flex-direction: column;
    gap: 2rem;
@@ -478,15 +484,14 @@ TAG SECTION
     width: 100%;
     margin: 0 auto;
     display: flex;
-    justify-content: flex-start;
+    justify-content:center;
     height: 100%;   
 }
  .tag-video iframe{
     margin: 0 auto;
     display: block;
-    object-fit: cover;
-    min-width: 100%;
-     min-height: 100%;
+    
+   
  }
 
  @media (min-width:992px){
