@@ -342,12 +342,13 @@ END OF NAVBAR */
     align-items: center;
     justify-content: center;
     gap: 1rem;
-    margin: 0px 10px;
+    margin: 0px 5px;
 }
 .range-icon i {
     margin: 0 auto;
     color: #fff;
     padding: 20px;
+    margin-right: 10px;
     border-radius: 3px;
     background-color: #00A261;
     border: 1px solid white;
@@ -429,6 +430,7 @@ TAG SECTION
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    margin-top: 5px;
     gap: 1rem;
 }
 
@@ -467,6 +469,7 @@ TAG SECTION
     align-items: flex-start;
     justify-content: center;
     gap: 2rem;
+   
     padding: 10px;
     margin: 0 auto;
 }
@@ -476,7 +479,7 @@ TAG SECTION
     padding: 0 20px;
     display: flex;
     flex-direction: column;
-   gap: 2rem;
+   
     align-items: center;
     justify-content: center;
 }
@@ -489,7 +492,7 @@ TAG SECTION
     height: 100%;   
 }
  .tag-video iframe{
-    margin: 0 auto;
+    margin: 5px 0px;
     display: block;
     
    
