@@ -235,16 +235,19 @@ END OF NAVBAR */
       
 }
 .card-content h2 {
+    margin-bottom: 5px;
     color: #fff;
     text-align: center;
     font-size: 2.5rem;
     border-bottom: 1px solid #00A261;
 }
 .card-content h3 {
+    margin-bottom: 5px;
     color: #fff;
     font-size: 2rem;
 }
 .home-card p {
+    margin-bottom: 6px;
     color: #fff;
     text-transform: capitalize;
     font-size: 1.2rem;
@@ -284,7 +287,7 @@ END OF NAVBAR */
    
     color: #696262;
     width: 98%;
-    margin: 20px auto 0px auto;
+    margin: 50px auto 0px auto;
 }
 .range-top-content {
    
@@ -320,7 +323,7 @@ END OF NAVBAR */
 .range-content {
    
     width: 98%;
-    margin: 30px auto 0 auto;
+    margin: 0 auto;
     display: flex;
    flex-direction: column;
     align-items: center;
@@ -328,12 +331,12 @@ END OF NAVBAR */
     gap: 1rem;
 }
 .range-left-content {
-    margin: 10 auto;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-gap: 2rem;
+    gap: 2rem;
     padding: 10px;
     
 }
@@ -348,7 +351,7 @@ gap: 2rem;
 .range-icon i {
     margin: 0 auto;
     color: #fff;
-    padding: 20px;
+    padding: 10px;
     margin-right: 10px;
     border-radius: 3px;
     background-color: #00A261;
@@ -391,6 +394,7 @@ gap: 2rem;
 
 @media (min-width:992px) {
     .range-content{
+        margin: 30px auto 0px auto;
         flex-direction: row;
         
     }
@@ -399,6 +403,9 @@ gap: 2rem;
     }
     .range-right-content{
         width: 50%;
+    }
+    .range-icon i{
+        padding: 20px;
     }
     .images-container img {
         min-width: 100%;
@@ -416,7 +423,7 @@ TAG SECTION
 }
 .tag-container{
     width: 100%;
-    margin: 100px auto 0 auto;
+    margin: 40px auto 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -501,6 +508,7 @@ TAG SECTION
 
  @media (min-width:992px){
     .tag-container{
+        margin: 100px auto 0 auto;
         flex-direction: row;
         justify-content: center;
         align-items: inherit;
@@ -508,7 +516,7 @@ TAG SECTION
     .tag-right-container {
        
         width: 55%;
-        margin: 0 auto;
+        margin: 40px auto 0 auto;
     }
     .tag-video {
         width: 50%;
@@ -606,6 +614,18 @@ table tr {
     padding: 10px;
     font-size: 1.2rem;
     margin:  0 auto;
+}
+.contact-flex {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.contact-info i {
+    padding: 6px;
+    margin-right: 4px;
+    color: #00A261;
+    background-color: #fff;
+    display: inline-block;
 }
 
 .contact-info  h4{
