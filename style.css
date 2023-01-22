@@ -343,13 +343,14 @@ END OF NAVBAR */
 
 .range-card {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     gap: 1rem;
     margin: 10px 5px;
 }
 .range-icon i {
-    margin: 0 auto;
+    
+    margin: 0px 4px 0px 0px;
     color: #fff;
     padding: 10px;
     margin-right: 10px;
@@ -405,6 +406,7 @@ END OF NAVBAR */
         width: 50%;
     }
     .range-icon i{
+        margin: 0 auto;
         padding: 20px;
     }
     .images-container img {
@@ -621,7 +623,7 @@ table tr {
     justify-content: flex-start;
 }
 .contact-info i {
-    padding: 6px;
+    padding: 0 6px;
     margin-right: 4px;
     color: #00A261;
     background-color: #fff;
