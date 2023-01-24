@@ -39,7 +39,11 @@ for ( let i = 0 ; i< buttons.length; i++){
     });
 };
 
-
+/* Close btn for popup */
 document.getElementById("close").addEventListener("click",function(){
     document.querySelector(".popup").style.display = "none"
 })
+
+document.querySelector("form").addEventListener("submit", function (e){
+    e.preventDefault();
+} )
