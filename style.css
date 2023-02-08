@@ -497,16 +497,22 @@ TAG SECTION
     justify-content: center;
 }
 
-.tag-video {
+.tag-img {
     width: 100%;
+    min-width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content:center;
-    height: 100%;   
+      
 }
- .tag-video iframe{
+ .tag-img img{
+    background-size: cover;
+    object-fit: cover;
     margin: 5px 0px;
     display: block;
+   width:100%;
+   
+   
     
    
  }
